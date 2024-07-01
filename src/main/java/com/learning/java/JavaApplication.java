@@ -14,7 +14,7 @@ public class JavaApplication {
         MyFirstClass myFirstClass = ctx.getBean(MyFirstClass.class);
         System.out.println(myFirstClass.sayHello());
 	}
-    @Bean
+   // @Bean
     public MyFirstClass myFirstClass() {
         return new MyFirstClass();
     }
